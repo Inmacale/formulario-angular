@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HeroFormComponent } from './hero-form/hero-form.component';
 
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -14,7 +15,7 @@ import { HeroFormComponent } from './hero-form/hero-form.component';
   ],
   declarations: [
     AppComponent,
-    HeroFormComponent
+    HeroFormComponent,
   ],
   providers: [],
   bootstrap: [ AppComponent ]
