@@ -26,5 +26,10 @@ export class HeroFormComponent {
     console.log('My hero is called ' + myHero.name); // "My hero is called SkyDog"
     return myHero;
   }
+  
+
+  newHero(){
+    this.model= new Hero(42, '','');
+  }
 
 }
